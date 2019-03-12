@@ -64,7 +64,7 @@
         
   <repositories>
   <repository>
-  <id>central</id>
+  <id>artifactory</id>
         <name>ip-10-0-0-61.ec2.internal-releases</name>
         <url>http://54.211.185.235:8081/artifactory/libs-release-local</url>
   </repository>
@@ -77,7 +77,7 @@
   
   <distributionManagement>
     <repository>
-        <id>central</id>
+        <id>artifactory</id>
         <name>ip-10-0-0-61.ec2.internal-releases</name>
         <url>http://54.211.185.235:8081/artifactory/libs-release-local</url>
     </repository>

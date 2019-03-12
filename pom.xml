@@ -35,6 +35,11 @@
         <name>ip-10-0-0-61.ec2.internal-releases</name>
         <url>http://54.211.185.235:8081/artifactory/libs-release-local</url>
   </repository>
+    
+   <repository>
+   <id>maven2</id>
+   <url>http://repo1.maven.org/maven2</url>
+  </repository>
   </repositories>
   
   <distributionManagement>

@@ -28,25 +28,19 @@
       <version>3.1.1</version>
     </dependency>
    
+   <dependency>
+     <groupId>org.apache.maven</groupId>
+     <artifactId>maven-plugin-api</artifactId>
+     <version>3.6.0</version>
+   <dependency>  
   
-  </dependencies>
-  
-      <build>
-      <plugins>
-         <plugin>
-            <groupId>org.apache.maven</groupId>
-            <artifactId>maven-plugin-api</artifactId>
-            <version>3.6.0</version>
-         </plugin>
-   
-         <plugin>
+     <dependency>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-plugin-plugin</artifactId>
             <version>3.6.0</version>
-        </plugin>  
-        </plugins>
- </build>    
-        
+       <dependency>
+         </dependencies> 
+       
   <repositories>
   <repository>
   <id>artifactory</id>
@@ -54,11 +48,7 @@
         <url>http://54.211.185.235:8081/artifactory/libs-release-local</url>
   </repository>
     
-   <repository>
-   <id>maven2</id>
-   <url>http://central.maven.org/maven2/</url>
-  </repository>
-  </repositories>
+ 
   
   <distributionManagement>
     <repository>
